@@ -1,0 +1,8 @@
+CREATE TABLE person(
+    id VARCHAR(100) NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    lastName VARCHAR(100) NOT NULL,
+    zipcode VARCHAR(100) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    color VARCHAR(100) NOT NULL
+)
